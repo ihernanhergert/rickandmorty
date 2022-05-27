@@ -1,10 +1,9 @@
 import React from "react";
-import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h6>Rick And Morty</h6>
+      <h2 style={{backgroundColor:'transparent'}}>Rick And Morty</h2>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 import Characters from "../components/Characters";
 import Pagination from "../components/Pagination";
