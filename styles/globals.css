@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +13,58 @@ a {
 
 * {
   box-sizing: border-box;
+  background-color: gray;
 }
+
+
+
+.navbar {
+  height: 100px;
+  padding: 1rem;
+  font-size:2.5rem;
+  color: aqua;
+  text-align: center;
+  background-color: rgb(3, 3, 46);
+}
+.navbar a {
+  background-color: transparent;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  padding: 1rem;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+li button {
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: rgb(3, 3, 46);
+  cursor: pointer;
+  font-size: 2rem;
+  transition: .3s;
+}
+
+li button:hover {
+  background-color: orangered;
+  color: black;
+  border: 2px solid orangered
+}
+.card {
+  text-align: center;
+  color: white;
+}
+
