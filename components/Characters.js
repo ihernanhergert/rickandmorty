@@ -8,7 +8,7 @@ const Characters = ({ characters = [] }) => {
             <div className="card">
                 <Image src={item.image} alt="" width="400" height='400'></Image>
                 <h5>{item.name}</h5>
-                <p>Location: {item.location.name}</p>
+                <p style={{color: 'rgb(3, 3, 46)'}}>Location: {item.location.name}</p>
                 <p>{item.spcies}</p>
             </div>
         </div>
